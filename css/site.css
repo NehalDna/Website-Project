@@ -3,19 +3,16 @@ html,body{
     font-family: Courier New, Courier;
     text-align: center;
   }
-  
   h1{
     text-align: left;
     font-size: 30px;
   }
-
   h2{
     padding-top: 2em;
     text-decoration: underline;
     overflow: hidden;  
     font-size: 40px;
   }
-  
   nav{
     padding-right: 2.5%;
   }
@@ -29,8 +26,22 @@ html,body{
     color: #3d3d3f;
     text-decoration: none;
   }
-  
   li:hover{
     text-decoration: underline;
     opacity: 0.5;  
   }
+.modal_about{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.about_body{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    background: #d0cfcd;
+}
