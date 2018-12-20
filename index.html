@@ -12,14 +12,14 @@
     <header><h1 id="title_header">Nehal Patel</h1></header>
     <section><h2>Front End Web Developer</h2></section>
     <nav>
-        <ul>
-            <li><p id="abouttoggle">About</p></li>
-            <li><p id="projecttoggle">Projects</p></li>
-            <li><p id='contacttoggle' >Contact</p></li>
+        <ul id='pages'>
+            <li><p class="link" onclick="show('modal_about')">About</p></li>
+            <li><p class="link" onclick="show('modal_project')">Projects</p></li>
+            <li><p class="link" onclick="show('modal_contact')">Contact</p></li>
         </ul>
     </nav>
 
-    <div id="modal_about" hidden>
+    <div id="modal_about" class="content" hidden>
             <h1 id="aboutheader">About</h1>
             <article>
                 <p>From the late 90's I've always had an affinity with computers, 
@@ -39,7 +39,7 @@
                 </article>
     </div>
 
-    <div id="modal_project" hidden>
+    <div id="modal_project" class="content" hidden>
             <h1 id="aboutheader">About</h1>
             <article>
                 <p>...
@@ -53,7 +53,7 @@
                 </article>
     </div>
 
-    <div id="modal_contact" hidden>
+    <div id="modal_contact" class="content" hidden>
             <h1 id="aboutheader">About</h1>
             <article>
                 <p>...
