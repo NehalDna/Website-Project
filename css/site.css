@@ -3,7 +3,7 @@ html,body{
     font-family: Courier New, Courier;
     text-align: center;
   }
-  h1{
+  #title_header{
     text-align: left;
     font-size: 30px;
   }
@@ -31,17 +31,11 @@ html,body{
     opacity: 0.5;  
   }
 .modal_about{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-.about_body{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     top: 50%;
     left: 50%;
-    background: #d0cfcd;
+    background:#e1e8f0;
+    transform: translate(-50%, -0%);
 }
