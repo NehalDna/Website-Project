@@ -33,7 +33,7 @@ html,body{
 
   /*CSS for the modals*/
 
-#modalabout{
+#modal_about, #modal_project, #modal_contact{
     position: relative;
     width: 600px;    
     top: 50%;
@@ -41,3 +41,4 @@ html,body{
     background:#e1e8f0;
     transform: translate(-50%, -0%);
 }
+
