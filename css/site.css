@@ -6,12 +6,15 @@ html,body{
 #title_header{
     text-align: left;
     font-size: 30px;
+    width: 200px;
   }
 header{
     position: fixed;
+    top: 1px;
+    
   }
-h2{
-    padding-top: 2em;
+#jobtitle{
+    padding-top: 5em;
     text-decoration: underline;
     overflow: hidden;  
     font-size: 40px;
@@ -70,3 +73,6 @@ li:hover{
 
 
 
+footer{
+    text-align: right;
+}
