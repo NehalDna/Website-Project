@@ -1,15 +1,15 @@
-    
-
 function show(contentname){
     //Hides all the elements with class='content by default */
     let i, content, link;
     contents = document.getElementsByClassName('content');
     for(i=0; i<contents.length; i++){
         contents[i].style.display ="none";
+        document.getElementById('background_modal').style.display ="none";
     }
     //shows the specific link content with a timeout function
     document.getElementById(contentname).style.display = "block";
     setTimeout(function() {
         document.getElementById(contentname).style.display = "none";
-      }, 30000);
+        document.getElementById('background_modal').style.display ="block";
+      }, 3000);
 }
