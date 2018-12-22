@@ -7,9 +7,9 @@ function show(contentname){
     for(i=0; i<contents.length; i++){
         contents[i].style.display ="none";
     }
-    //shows the specific link content
+    //shows the specific link content with a timeout function
     document.getElementById(contentname).style.display = "block";
     setTimeout(function() {
         document.getElementById(contentname).style.display = "none";
-      }, 50000);
+      }, 30000);
 }

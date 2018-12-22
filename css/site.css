@@ -42,3 +42,17 @@ html,body{
     transform: translate(-50%, -0%);
 }
 
+  /*CSS for the socials*/
+.socials{
+    position: relative;
+    text-align: left;
+    width: 200px;
+    margin: 30px;
+    bottom: 18px;
+  }
+  
+  #soc:hover{
+    opacity: 0.5; 
+    cursor: default;
+  }
+
