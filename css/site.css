@@ -78,12 +78,61 @@ li:hover{
 #modal_about, #modal_project, #modal_contact{
     position: relative;
     width: 600px; 
-    height: 500px;   
+    height: 550px;   
     top: 50%;
     left: 50%;
     background:#e1e8f0;
     transform: translate(-50%, -0%);
 }
+
+
+.card {
+	margin-bottom: 2em;	
+}
+
+.card a {
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+	padding: 1em;
+}
+
+.card-content h6 {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.photo{
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-right: 20px;
+}
+
+.card-content p {
+  font-size: 10px;
+  text-align: left;
+  width: 60%;
+}
+
+
+
+
+.cards {
+   justify-content: space-between;
+   display: inline-block;
+  
+}
+
+
 
 
  /*CSS for the modals*/
