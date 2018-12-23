@@ -75,65 +75,73 @@ li:hover{
 }
   
 
-#modal_about, #modal_project, #modal_contact{
+#modal_about, #modal_contact{
     position: relative;
     width: 600px; 
-    height: 550px;   
+    height: 500px;   
     top: 50%;
     left: 50%;
     background:#e1e8f0;
     transform: translate(-50%, -0%);
 }
 
+#modal_project{
+  position: relative;
+    width: 600px; 
+    height: 750px;   
+    top: 50%;
+    left: 50%;
+    background:#e1e8f0;
+    transform: translate(-50%, -0%);
 
-.card {
-	margin-bottom: 2em;	
 }
 
-.card a {
-	text-decoration: none;
+/*CSS for the Project Cards*/
+
+#card {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  padding: 25px;
+  padding-top: 0;
+  padding-bottom: 10px;
+  left: 50%;
+  margin-bottom: 10px;
+  margin-left: -275px;
+  background: #E9E2D0;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  justify-content: space-between;
+
 }
 
-.card a:hover {
-	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
-}
-
-.card-content {
-	padding: 1em;
-}
-
-.card-content h6 {
-  font-weight: bold;
-  text-align: left;
+#card img {
+  width: 150px;
+  float: left;
   margin-top: 30px;
+  border-radius: 10px;
+  margin-right: 20px;
+  filter: sepia(1);
+  background-color: grey;
+  align-items: center;
 }
 
-.photo{
-  float: right;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-  padding-right: 20px;
+#card h2 {
+  font-family: courier;
+  color: #333;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15pt;
 }
 
-.card-content p {
-  font-size: 10px;
-  text-align: left;
-  width: 60%;
+#card p {
+  font-family: courier;
+  color: #555;
+  font-size: 13px;
 }
 
-
-
-
-.cards {
-   justify-content: space-between;
-   display: inline-block;
-  
+#card span {
+  font-family: courier;
 }
-
-
-
 
  /*CSS for the modals*/
 footer {
