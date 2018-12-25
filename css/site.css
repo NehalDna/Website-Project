@@ -40,6 +40,9 @@ header{
     margin: 10px;
     bottom: 18px;
   }
+#soc{
+  transition: opacity .2s;
+}
   
 #soc:hover{
     opacity: 0.5; 
@@ -64,6 +67,9 @@ nav ul li a {
     text-decoration: none;
     
   }
+li{
+  transition: opacity .2s;
+}
 li:hover{
     text-decoration: none;
     opacity: 0.5;  
@@ -90,8 +96,7 @@ li:hover{
     width: 600px; 
     height: 800px;   
     top: 50%;
-    left: 50%;
-    background:#e1e8f0;
+    left: 50%;    
     transform: translate(-50%, -0%);
 
 }
@@ -108,9 +113,12 @@ li:hover{
   left: 50%;
   margin-bottom: 10px;
   margin-left: -275px;
-  background: #E9E2D0;
+  background: #e1e8f0;
   box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
   justify-content: space-between;
+  border-style: solid;
+  border-width: 2px;
+  transition: background-color .5s;
 
 }
 
@@ -121,24 +129,21 @@ li:hover{
   border-radius: 10px;
   margin-right: 20px;
   filter: sepia(1);
-  background-color: grey;
   align-items: center;
 }
 
 #card h2 {
-  color: #333;
   margin: 0 auto;
   padding: 0;
   font-size: 15pt;
 }
 
 #card p {
-  
-  color: #555;
   font-size: 13px;
 }
 
 #card:hover {
+  background-color: #f6f5f3;
    }
 
 #content{
