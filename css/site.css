@@ -88,7 +88,7 @@ li:hover{
 #modal_project{
   position: relative;
     width: 600px; 
-    height: 750px;   
+    height: 800px;   
     top: 50%;
     left: 50%;
     background:#e1e8f0;
@@ -101,7 +101,7 @@ li:hover{
 #card {
   position: relative;
   width: 500px;
-  height: 200px;
+  height: 225px;
   padding: 25px;
   padding-top: 0;
   padding-bottom: 10px;
@@ -126,7 +126,6 @@ li:hover{
 }
 
 #card h2 {
-  font-family: courier;
   color: #333;
   margin: 0 auto;
   padding: 0;
@@ -134,16 +133,28 @@ li:hover{
 }
 
 #card p {
-  font-family: courier;
+  
   color: #555;
   font-size: 13px;
 }
 
-#card span {
-  font-family: courier;
+#card:hover {
+   }
+
+#content{
+  text-align: left;
 }
 
- /*CSS for the modals*/
+.center{
+ text-align: center;
+}
+.bottom {
+  position: relative;
+  padding-left: 150px;
+  
+  
+
+}
 footer {
     right: 0;
     bottom: 0;
