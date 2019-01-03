@@ -15,6 +15,7 @@ function show(contentname){
       }, 50000);
 }
 
+
 let TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
