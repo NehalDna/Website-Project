@@ -207,14 +207,22 @@ li:hover{
   }
  
 
-  #projects{
+  .projects{
     width: 500px;
     height: 350px;
     transform: translate(10%,100%);
-    
+    display: none;
     background-color: aqua;
   }
     
+  .image {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .image:hover {
+    opacity: 1;
+  }
   
 
 
