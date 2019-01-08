@@ -1,8 +1,10 @@
 
+
 function show(contentname){
     //Hides all the elements with class='content by default */
     let i, content, link;
     contents = document.getElementsByClassName('content');
+
     for(i=0; i<contents.length; i++){
         contents[i].style.display ="none";
         document.getElementById('background_modal').style.display ="none";
@@ -13,10 +15,28 @@ function show(contentname){
         document.getElementById(contentname).style.display = "none";
         document.getElementById('background_modal').style.display ="block";
       }, 50000);
+    }
+
+
+function reval(projectdes){
+  let x, projects, connection;
+  projects = document.getElementsByClassName('project');
+
+  for(x=0; x<projects.length; x++){
+    projects[x].style.display="none";
+
+  }
+  document.getElementById(projectdes).style.display = "block";
+  setTimeout(function() {
+    document.getElementById(projectdes).style.display = "none";
+    
+  }, 50000);
+  
 }
+  
 
 
-let TxtRotate = function(el, toRotate, period) {
+    let TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
@@ -72,5 +92,3 @@ let TxtRotate = function(el, toRotate, period) {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
   };
-
-
