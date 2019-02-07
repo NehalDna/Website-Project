@@ -12,13 +12,13 @@ html{
     width: 200px;
   }
 header{
-    position: fixed;
+    /* position: fixed; */
     top: 1px;
     cursor: default;
     
   }
 #jobtitle{
-    padding-top: 5em;
+    padding-top: 10%;
     text-decoration: underline;
     overflow: hidden;  
     font-size: 40px;

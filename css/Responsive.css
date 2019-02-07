@@ -1,7 +1,6 @@
 @media screen and (max-width: 425px) {
 
     header{
-        order: 1;
         margin-left: 25%;
         position: relative;
     }
@@ -35,3 +34,4 @@
     }
 
 }
+
