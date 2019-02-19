@@ -1,4 +1,5 @@
-html,body{
+html,
+body{
     background-color: #f6f5f3;
     font-family: Courier New, Courier;
     text-align: center;
@@ -81,7 +82,9 @@ li:hover{
 }
   
 
-#modal_about, #modal_contact #modal_project{
+#modal_about, 
+#modal_contact, 
+#modal_project{
     position: relative;
     width: 600px; 
     height: 500px;   
@@ -91,19 +94,7 @@ li:hover{
     transform: translate(-50%, -0%);
 }
 
-#modal_project{
-  position: relative;
-    width: 600px; 
-    height: 500px;   
-    top: 50%;
-    left: 50%;    
-    transform: translate(-50%, -0%);
-
-}
-
 /*CSS for the Project Cards*/
-
-
   .project{
     width: 500px;
     height: 350px;
@@ -126,9 +117,6 @@ li:hover{
     padding-top: 10%;
   }
     
-  
- 
-
   .email{
     padding-top: 3%;
   }
@@ -139,8 +127,6 @@ li:hover{
     font-weight: bolder;
   }
   
-
-
 footer {
     height: 100%;
     right: 0;

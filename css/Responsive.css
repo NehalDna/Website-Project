@@ -4,25 +4,33 @@
         margin-left: 25%;
         position: relative;
     }
+    
     h1{
         font-size: 18px;
     }
+
     p{
         font-size: 12px;
     }
+
     #jobtitle {
         padding-top: 0%;
         font-size: 25px;
     }
+    
     nav{
         padding-right: 10%;
         font-size: 12px;
       }
-    #modal_about, #modal_contact #modal_project {    
+
+    #modal_about, 
+    #modal_contact,
+    #modal_project {    
         width: 350px;
         height: 300px;
         font-size: 12px;
     }
+
     .projectnav{
         padding-left: 7%;
     }
